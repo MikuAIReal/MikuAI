@@ -10,6 +10,7 @@ ques = {'model': "bringusai/miku"}
 
 
 print("MikuAI reqiures Ollama please install it or have a heart attack")
+
 time.sleep(2)
 
 requests.post(papi, json = pull)
@@ -23,4 +24,6 @@ ques['stream'] = False
 mikuattack = json.dumps(ques)
 
 x = requests.post(api, json = mikuattack)
+
+
 
