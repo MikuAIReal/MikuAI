@@ -24,7 +24,7 @@ input = input("input here mr. tester man: ")
 
 ques['prompt'] = input
 #ques['format'] = "json"
-#ques['stream'] = false
+ques['stream'] = False
 
 mikuattack = json.dumps(ques)
 
