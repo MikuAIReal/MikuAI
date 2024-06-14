@@ -15,7 +15,7 @@ def ask():
 
     global x
     
-    x = requests.post("http://127.0.0.1:11434/api/generate", json = mikuattack2, headers = headers)
+    x = requests.post("http://127.0.0.1:11434/api/generate", json = mikuattack, headers = headers)
 
 
 
