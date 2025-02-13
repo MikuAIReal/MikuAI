@@ -1,1 +1,1 @@
-sounddevice librosa numpy websockets transformers
+sounddevice, librosa, numpy, websockets, transformers
